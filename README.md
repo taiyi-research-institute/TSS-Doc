@@ -12,3 +12,39 @@
 - 验签算法：利用对应于秘密私钥的公钥，按照传统签名算法的验签方式即可完成对联合签名的验证。在验签过程中，不涉及秘密信息，因此，任何人（拥有公钥）都能对签名进行验证。
 
 总之，门限签名 (Threshold Signatures, TSS) 在区块链等领域具有重大的发展和应用的潜力，值得我们去深入的研究。
+
+下面是关于 TSS 的学习资料，仅供参考。
+
+# 一. 阅读材料
+
+## 1. Papers
+
+* The Elliptic Curve Digital Signature Algorithm (ECDSA) 
+  [Click](https://link.springer.com/article/10.1007/s102070100002)
+* The Security of DSA and ECDSA
+  [Click](https://link.springer.com/chapter/10.1007/3-540-36288-6_23)
+* Fast Multiparty Threshold ECDSA with Fast Trustless Setup
+  [Click](https://eprint.iacr.org/2019/114.pdf)
+* Threshold ECDSA from ECDSA Assumptions: The Multiparty Case
+  [Click](https://ieeexplore.ieee.org/abstract/document/8835354)
+* Fast Threshold ECDSA with Honest Majority
+  [Click](https://dl.acm.org/doi/abs/10.1145/3243734.3243859)
+* One Round Threshold ECDSA with Identifiable Abort
+  [Click](https://eprint.iacr.org/2020/540.pdf)
+* Threshold-Signatures-whitepaper-nchain
+  [Click](https://nakasendoproject.org/Threshold-Signatures-whitepaper-nchain.pdf)
+* Hierarchical Threshold Secret Sharing
+  [Click](https://www.openu.ac.il/lists/mediaserver_documents/personalsites/tamirtassa/hss_conf.pdf)
+* (扩展阅读) Blazing Fast OT for Three-Round UC OT
+  [Click](https://eprint.iacr.org/2020/110.pdf)
+* (WhitePaper) https://github.com/ZenGo-X/gotham-city/blob/master/white-paper/white-paper.pdf
+
+## 2. Github repos
+
+* (Rust) https://github.com/cryptochill/tss-ecdsa-cli
+* (Rust) https://github.com/ZenGo-X/multi-party-ecdsa
+* (C++) https://github.com/unboundsecurity/blockchain-crypto-mpc
+* (Go) https://github.com/coinbase/kryptology
+* (Go) https://github.com/getamis/alice/blob/master/crypto/bip32/README.md
+* (Go) https://github.com/bnb-chain/tss-lib
+* (Go) https://github.com/getamis/alice
