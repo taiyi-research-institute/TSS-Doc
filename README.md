@@ -1,3 +1,4 @@
+# 一. 门限签名
 
 门限签名是一种分布式多方签名协议，包含有分布式密钥生成，签名和验签算法。其允许多个参与方联合生成合法的签名而不需要生成私钥，同时任何人都能对签名进行认证。这种去中心化的签名方式非常适合应用于区块链等领域。近几年，伴随区块链技术的快速发展，门限签名算法在学术研究和商业应用中获得广泛关注。
 
@@ -15,36 +16,26 @@
 
 下面是关于 TSS 的学习资料，仅供参考。
 
-# 一. 阅读材料
+# 二. 阅读材料
 
-## 1. Papers
+## 2.1 Papers
 
-* The Elliptic Curve Digital Signature Algorithm (ECDSA) 
-  [Click](https://link.springer.com/article/10.1007/s102070100002)
-* The Security of DSA and ECDSA
-  [Click](https://link.springer.com/chapter/10.1007/3-540-36288-6_23)
-* Fast Multiparty Threshold ECDSA with Fast Trustless Setup
-  [Click](https://eprint.iacr.org/2019/114.pdf)
-* Threshold ECDSA from ECDSA Assumptions: The Multiparty Case
-  [Click](https://ieeexplore.ieee.org/abstract/document/8835354)
-* Fast Threshold ECDSA with Honest Majority
-  [Click](https://dl.acm.org/doi/abs/10.1145/3243734.3243859)
-* One Round Threshold ECDSA with Identifiable Abort
-  [Click](https://eprint.iacr.org/2020/540.pdf)
-* Threshold-Signatures-whitepaper-nchain
-  [Click](https://nakasendoproject.org/Threshold-Signatures-whitepaper-nchain.pdf)
-* Hierarchical Threshold Secret Sharing
-  [Click](https://www.openu.ac.il/lists/mediaserver_documents/personalsites/tamirtassa/hss_conf.pdf)
-* (扩展阅读) Blazing Fast OT for Three-Round UC OT
-  [Click](https://eprint.iacr.org/2020/110.pdf)
+* [The Elliptic Curve Digital Signature Algorithm (ECDSA) ](https://link.springer.com/article/10.1007/s102070100002)
+* [The Security of DSA and ECDSA](https://link.springer.com/chapter/10.1007/3-540-36288-6_23)
+* [Fast Multiparty Threshold ECDSA with Fast Trustless Setup](https://eprint.iacr.org/2019/114.pdf)
+* [Threshold ECDSA from ECDSA Assumptions: The Multiparty Case](https://ieeexplore.ieee.org/abstract/document/8835354)
+* [Fast Threshold ECDSA with Honest Majority](https://dl.acm.org/doi/abs/10.1145/3243734.3243859)
+* [One Round Threshold ECDSA with Identifiable Abort](https://eprint.iacr.org/2020/540.pdf)
+* [Threshold-Signatures-whitepaper-nchain](https://nakasendoproject.org/Threshold-Signatures-whitepaper-nchain.pdf)
+* [Hierarchical Threshold Secret Sharing](https://www.openu.ac.il/lists/mediaserver_documents/personalsites/tamirtassa/hss_conf.pdf)
+* [(扩展阅读) Blazing Fast OT for Three-Round UC OT](https://eprint.iacr.org/2020/110.pdf)
 * (WhitePaper) https://github.com/ZenGo-X/gotham-city/blob/master/white-paper/white-paper.pdf
 
-## 2. Github repos
+## 2.2 Github repos
 
 * (Rust) https://github.com/cryptochill/tss-ecdsa-cli
 * (Rust) https://github.com/ZenGo-X/multi-party-ecdsa
 * (C++) https://github.com/unboundsecurity/blockchain-crypto-mpc
 * (Go) https://github.com/coinbase/kryptology
-* (Go) https://github.com/getamis/alice/blob/master/crypto/bip32/README.md
 * (Go) https://github.com/bnb-chain/tss-lib
 * (Go) https://github.com/getamis/alice
