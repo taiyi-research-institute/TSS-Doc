@@ -9,7 +9,7 @@ by Jeffrey shang
 - 多项式的线性运算
 - 拉格朗日插值法
 - Shamir门限共享
-    - Shamir 秘密共享 [Click](https://dl.acm.org/doi/abs/10.1145/359168.359176)
+    -  [Shamir 秘密共享](https://dl.acm.org/doi/abs/10.1145/359168.359176)
         
         Shamir 门限共享是理解后面内容的基础, 一定要理解！！！
         
@@ -326,10 +326,11 @@ $$
 
 # 四. 参考文献
 
-[1] Pedersen, T. P. "A threshold cryptosystem without a trusted
+[1] [Pedersen, T. P. "A threshold cryptosystem without a trusted
 party." Workshop on the Theory and Application of Cryptographic
-Techniques. Springer, Berlin, Heidelberg, 1991. [Click](https://link.springer.com/chapter/10.1007/3-540-46416-6_47)
+Techniques. Springer, Berlin, Heidelberg, 1991. ](https://link.springer.com/chapter/10.1007/3-540-46416-6_47)
 
-[2] Gennaro, R, et al. "Robust threshold DSS signatures." International
+[2]  [Gennaro, R, et al. "Robust threshold DSS signatures." International
 Conference on the Theory and Applications of Cryptographic Techniques.
-Springer, Berlin, Heidelberg, 1996. [Click](https://link.springer.com/chapter/10.1007/3-540-46416-6_47)
+Springer, Berlin, Heidelberg, 1996.](https://link.springer.com/chapter/10.1007/3-540-46416-6_47)
+

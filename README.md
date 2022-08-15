@@ -18,7 +18,7 @@
 
 # 二. 阅读材料
 
-## 1. Papers
+## 2.1 Papers
 
 * [The Elliptic Curve Digital Signature Algorithm (ECDSA) ](https://link.springer.com/article/10.1007/s102070100002)
 * [The Security of DSA and ECDSA](https://link.springer.com/chapter/10.1007/3-540-36288-6_23)
@@ -31,7 +31,7 @@
 * [(扩展阅读) Blazing Fast OT for Three-Round UC OT](https://eprint.iacr.org/2020/110.pdf)
 * (WhitePaper) https://github.com/ZenGo-X/gotham-city/blob/master/white-paper/white-paper.pdf
 
-## 2. Github repos
+## 2.2 Github repos
 
 * (Rust) https://github.com/cryptochill/tss-ecdsa-cli
 * (Rust) https://github.com/ZenGo-X/multi-party-ecdsa
